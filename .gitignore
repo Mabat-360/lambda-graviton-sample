@@ -1,0 +1,9 @@
+node_modules/
+cdk.out/
+.tmp/
+
+# Fake binary written by example/fake-elf.mjs before every synth, test and demo
+example/functions/pdf-export/bin/
+
+*.log
+.DS_Store

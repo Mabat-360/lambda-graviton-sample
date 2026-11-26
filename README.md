@@ -11,3 +11,7 @@ The files in this repository are licensed under MIT No Attribution (MIT-0); see 
 The MIT-0 licence applies only to the files published in this repository. It does not apply to any other software, repository, document or asset of Mabat Future Common 360 Ltd.
 
 Copyright Mabat Future Common 360 Ltd.
+
+## What is in this repository
+
+See [SAMPLE.md](SAMPLE.md): how the policy works, how to run the tests, and how the measurement was done.

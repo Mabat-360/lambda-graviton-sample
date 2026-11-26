@@ -1,0 +1,28 @@
+{
+  "name": "lambda-graviton-sample",
+  "version": "1.0.0",
+  "description": "A CDK pattern: Lambda functions run on arm64 by default, exceptions live in code, synth fails closed, and the assets are scanned for native binaries.",
+  "author": "Mabat Future Common 360 Ltd.",
+  "license": "MIT-0",
+  "private": false,
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "pretest": "node example/fake-elf.mjs",
+    "test": "tsx --test --test-reporter=spec test/aspect.test.ts test/native-binary-check.test.ts test/leak-scan.test.ts",
+    "typecheck": "tsc --noEmit",
+    "synth": "tsx example/app.ts",
+    "demo:fail": "node scripts/demo.mjs fail",
+    "demo:pass": "node scripts/demo.mjs pass",
+    "scan": "node scripts/leak-scan.mjs"
+  },
+  "devDependencies": {
+    "@types/node": "22.20.7",
+    "aws-cdk-lib": "2.278.0",
+    "constructs": "10.8.1",
+    "tsx": "4.23.15",
+    "typescript": "5.9.3"
+  }
+}
