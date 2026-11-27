@@ -11,7 +11,7 @@ A pattern for AWS CDK apps, in four parts:
 4. **Scan the assets.** Before a function moves to arm64, its code asset is searched for
    native binaries that cannot run there. The same check runs at build time.
 
-Extracted from a production codebase. Nothing here needs an AWS account, except the two
+Extracted from a real application codebase. Nothing here needs an AWS account, except the two
 measurement scripts.
 
 ## Contents

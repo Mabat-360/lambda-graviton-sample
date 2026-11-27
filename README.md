@@ -2,8 +2,6 @@
 
 A small public code sample from Mabat Future Common 360 Ltd.: running AWS Lambda functions on Graviton (arm64) by default in AWS CDK, with a native-binary compatibility check and measurement scripts.
 
-The sample code is being prepared and will be added to this repository.
-
 ## Licence
 
 The files in this repository are licensed under MIT No Attribution (MIT-0); see [LICENSE](LICENSE).
